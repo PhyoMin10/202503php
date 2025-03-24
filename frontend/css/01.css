@@ -1,0 +1,94 @@
+/* body 标签默认是有 margin 的 */
+body {
+    margin: 20px;
+}
+
+/* 标题样式 */
+.header h1 {
+    color: red;
+}
+
+/* 介绍段落样式 */
+.intro {
+    color: green;
+    font-size: 18px;
+}
+
+/* div4 内部的 P 标签 */
+.div4-p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ID 选择器 */
+#content {
+    background-color: brown;
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* 类选择器 */
+.footer {
+    background-color: dimgray;
+    width: 300px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.div2 {
+    margin-left: 30px;
+}
+
+/* div3 样式 */
+.div3 {
+    background-color: darkorange;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+/* 兄弟选择器 */
+.brother-selector {
+    border: 1px solid red;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+/* 兄弟选择器 - div5 之后的所有兄弟 */
+.div5 ~ div {
+    background-color: hotpink;
+    margin-left: 30px;
+}
+
+/* 属性选择器 */
+input[type="text"] {
+    border: 1px solid red;
+}
+
+input[type="email"] {
+    background-color: #00FFFF;
+}
+
+input[type="button"] {
+    background-color: red;
+    color: white;
+}
+
+/* 自定义属性选择器 */
+.custom-data[data-custom="999"] {
+    background-color: yellow;
+}
+
+.custom-data[data-custom="1000"] {
+    background-color: orange;
+}
+
+
+
+
