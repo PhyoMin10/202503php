@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>我的工具合集</title>
+    <link rel="stylesheet" href="tools.css">
+</head>
+<body>
+
+    <h1>tools.html - 我的工具集合</h1>
+
+    <div class="tool-section" id="bmi-section">
+        <h2>BMI 计算器</h2>
+        <form id="bmi-form">
+            <label>体重 (kg): <input type="number" id="weight"></label>
+            <label>身高 (cm): <input type="number" id="height"></label>
+            <button id="btn-calculate">计算 BMI</button>
+        </form>
+        <p id="bmi-result"></p>
+    </div>
+
+    <div class="tool-section" id="timer-section">
+        <h2>计时器</h2>
+        <p id="timer">0</p>
+        <button id="start">开始</button>
+        <button id="stop">停止</button>
+        <button id="reset">重置</button>
+    </div>
+
+    <div class="tool-section" id="todo-section">
+        <h2>待办事项 Todo List</h2>
+        <input type="text" id="todo-input" placeholder="输入待办事项">
+        <button id="add-todo">添加</button>
+        <ul id="todo-list"></ul>
+    </div>
+
+    <script src="tools.js"></script>
+</body>
+</html>
